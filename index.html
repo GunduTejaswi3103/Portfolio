@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link rel="icon" href="./images/address-card-solid.svg" type="svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">My <span>Portfolio</span></a>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello it's Me</h3>
+        <h1 id="teju">Gundu Tejaswi</h1>
+        <h3> <span>Fullstack Developer</span></h3>
+        <p>
+          I am seeking to work as a Full Stack Python Developer where i can utilize my skills and knowledge.I am committed to continuously improving my skills and abilities to become a valuable asset to the organisation.  
+        </p>
+        <div class="social-media">
+          <a
+}
+            href="https://www.linkedin.com/in/gundu-tejaswi-0925b92a4"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/tejaswi_gundu/" target="_self"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/GunduTejaswi3103">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <a href="./images/Tejaswi updated resume.pdf" class="btn"
+          ><i class="fa-solid fa-file-arrow-down"></i> Resume</a
+        >
+      </div>
+      <div class="home-img">
+        <img src="./images/IMG.jpg" alt="Image" />
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./images/IMG.jpg" alt="about" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Gundu Tejaswi</h3>
+        <p>
+            Hi, I'm Gundu Tejaswi, a passionate Fullstack Python Developer with a knack for creating dynamic and user-friendly web applications. 
+I am proficient in Python, Django, Angular,Django RestFramework and MySQL. My expertise also extends to JavaScript,React.JS, HTML, and CSS, enabling me to build comprehensive full-stack solutions. 
+
+I have successfully led multiple projects, including a  both of which have received positive feedback for their performance and user experience. My goal is to continuously grow as a developer, contributing to innovative projects that solve real-world problems and make a positive impact.
+
+When I'm not coding, you can find me exploring the outdoors, spending quality time with friends and family. Feel free to explore my portfolio and reach out if you have any exciting opportunities or just want to connect!
+          
+        </p>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="projects-container">
+        <div class="projects-box">
+          <img
+            src="./images/Student_Registration.jpg"
+            alt="project-img"
+          />
+          <div class="projects-layer">
+            <h4>Student Registration System</h4>
+            <p>
+                The Student Registration System is a dynamic,web-based application with both static and dynamic pages like home,contact_us,about_us,careers,registration pages.It is mainly designed to allow students to register for courses,update personal setails,delete records,and view a list of all registered students.The application emphasizes a smooth ,interactive user experience.
+               <br>
+              •Frontend:HTML,CSS,Javascript/JQuery<br>
+              •Backend:Python(Django Framework)
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="projects-box">
+          <img
+            src="./images/Crud.webp"
+            alt="project-img"
+          />
+          <div class="projects-layer">
+            <h4>School Management System</h4>
+            <p>The School Management System (SMS) is a web-based application designed to streamline and manage various administrative and academic operations of a school. The system leverages Angular for the frontend, providing a responsive and interactive user interface, while Django, combined with Django Rest Framework (DRF), serves as the robust backend to handle data management and API services.
+               <br />
+              • Key Skills: Angular,Django with Django RestFramework
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="projects-box">
+          <img src="./images/portfolio.webp" alt="project-img" />
+          <div class="projects-layer">
+            <h4>Portfolio</h4>
+            <p>
+              I developed a responsive personal portfolio website using HTML and
+              CSS to showcase my projects, skills, and background. The site
+              includes a clean, minimalistic design with sections for project
+              highlights, an about me section, and contact information. I
+              focused on creating an intuitive user experience, incorporating
+              animations and media queries for optimal viewing across devices.
+            </p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="7"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="button" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; by Gundu Tejaswi</p>
+      </div>
+      <div class="top-icon">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
